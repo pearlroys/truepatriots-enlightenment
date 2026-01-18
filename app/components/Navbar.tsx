@@ -1,41 +1,127 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Navbar() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <header className="bg-white border-b">
-      <div className="max-w-7xl mx-auto px-6 md:px-10 h-20 flex items-center justify-between">
+    <nav className="bg-white border-b border-[#e6f2f4] px-5 py-4">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
 
         {/* LOGO */}
-        <Link href="/" className="flex items-center gap-3">
-          <img
-            src="/logo/true-patriots-logo.png"
-            alt="True Patriots Enlightenment"
-            className="h-10 w-auto"
-          />
-
-          <span className="text-lg md:text-xl font-semibold text-teal-700 hidden sm:block">
-            True Patriots Enlightenment
-          </span>
-        </Link>
-
-        {/* NAV LINKS */}
-        <nav className="hidden md:flex items-center gap-8 text-gray-700 font-medium">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/programs">Programs</Link>
-          <Link href="/achievements">Achievements</Link>
-          <Link href="/contact">Contact</Link>
-        </nav>
-
-        {/* DONATE */}
         <Link
-          href="/donate"
-          className="donate-btn bg-red-600 text-white px-6 py-2 rounded-full font-semibold hover:bg-red-700 transition"
+          href="/"
+          className="text-lg font-bold text-[#2fa4a9]"
         >
-          ♥ Donate
+          True Patriots Enlightenment
         </Link>
 
+        {/* DESKTOP NAV */}
+        <div className="hidden md:flex items-center gap-8">
+
+          <Link href="/" className="text-sm font-medium text-gray-700 hover:text-black">
+            Home
+          </Link>
+
+          <Link href="/about" className="text-sm font-medium text-gray-700 hover:text-black">
+            About
+          </Link>
+
+          <Link href="/programs" className="text-sm font-medium text-gray-700 hover:text-black">
+            Programs
+          </Link>
+
+          <Link href="/achievements" className="text-sm font-medium text-gray-700 hover:text-black">
+            Achievements
+          </Link>
+
+          <Link href="/contact" className="text-sm font-medium text-gray-700 hover:text-black">
+            Contact
+          </Link>
+
+          <Link
+            href="/donate"
+            className="
+  bg-red-500
+  hover:bg-red-600
+  text-white
+  px-6
+  py-2
+  rounded-full
+  font-semibold
+  transition
+"
+          >
+            ♥ Donate
+          </Link>
+        </div>
+
+        {/* MOBILE NAV */}
+        <div className="md:hidden flex items-center gap-4">
+
+          <Link
+            href="/donate"
+            className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-full font-medium hover:opacity-90"
+          >
+            ♥ Donate
+          </Link>
+
+          <button
+            onClick={() => setOpen(!open)}
+            className="text-sm font-semibold text-[#2fa4a9]"
+          >
+            More ▾
+          </button>
+        </div>
       </div>
-    </header>
+
+      {/* MOBILE DROPDOWN */}
+      {open && (
+        <div className="md:hidden mt-4 rounded-xl bg-white border shadow-sm overflow-hidden">
+
+          <Link
+            href="/"
+            onClick={() => setOpen(false)}
+            className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
+          >
+            Home
+          </Link>
+
+          <Link
+            href="/about"
+            onClick={() => setOpen(false)}
+            className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
+          >
+            About
+          </Link>
+
+          <Link
+            href="/programs"
+            onClick={() => setOpen(false)}
+            className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
+          >
+            Programs
+          </Link>
+
+          <Link
+            href="/achievements"
+            onClick={() => setOpen(false)}
+            className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
+          >
+            Achievements
+          </Link>
+
+          <Link
+            href="/contact"
+            onClick={() => setOpen(false)}
+            className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
+          >
+            Contact
+          </Link>
+        </div>
+      )}
+    </nav>
   );
 }
