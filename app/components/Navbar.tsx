@@ -63,16 +63,7 @@ export default function Navbar() {
 
           <Link
             href="/donate"
-            className="
-  bg-red-500
-  hover:bg-red-600
-  text-white
-  px-6
-  py-2
-  rounded-full
-  font-semibold
-  transition
-"
+            className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-full font-medium hover:opacity-90"
           >
             ♥ Donate
           </Link>

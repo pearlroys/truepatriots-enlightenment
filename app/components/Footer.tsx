@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#f9fafb] border-t mt-24">
+    <footer className="bg-slate-50 border-t border-slate-200">
       <div className="max-w-7xl mx-auto px-6 py-16 grid gap-12 md:grid-cols-4 text-sm">
 
         {/* BRAND */}
@@ -44,8 +44,7 @@ export default function Footer() {
           <h4 className="font-semibold text-gray-900 mb-4">Contact</h4>
           <ul className="space-y-3 text-gray-600">
             <li>Email: info@truepatriotsenlightenment.org</li>
-            <li>Phone: +234 XXX XXX XXXX</li>
-            <li>Location: Nigeria</li>
+            <li>Phone: +234 8033 027132</li>
           </ul>
 
           <Link
