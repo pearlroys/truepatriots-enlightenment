@@ -21,11 +21,18 @@ export default function Footer() {
           {/* ✅ ROUTING SUPPORT BUTTON */}
           <Link
             href="/donate"
-            className="inline-block mt-5 
-                       bg-pink-400 hover:bg-pink-500 
-                       text-white px-5 py-2 
-                       rounded-full text-sm 
-                       font-semibold transition"
+            className="
+    inline-flex items-center gap-2
+    mt-5
+    bg-[#F2B705]
+    hover:bg-[#d9a304]
+    text-[#1F2937]
+    px-6 py-3
+    rounded-full
+    font-semibold
+    transition
+    shadow-sm
+  "
           >
             ♥ Support Our Work
           </Link>
@@ -64,7 +71,7 @@ export default function Footer() {
           <p className="text-gray-700 text-sm mt-2">
             Phone: +234 8033 027132
           </p>
-          
+
         </div>
       </div>
 
