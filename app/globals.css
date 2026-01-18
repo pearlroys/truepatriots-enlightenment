@@ -29,3 +29,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Mobile donate button — red instead of light pink */
+@media (max-width: 768px) {
+  .donate,
+  .donate-btn,
+  #donate {
+    background-color: #d60000 !important;
+    color: #ffffff !important;
+  }
+}

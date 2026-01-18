@@ -43,7 +43,16 @@ export default function Navbar() {
 
           <Link
             href="/donate"
-            className="bg-[#f3a4b5] text-white px-4 py-2 rounded-full font-medium hover:opacity-90"
+            className="
+  bg-red-500
+  hover:bg-red-600
+  text-white
+  px-6
+  py-2
+  rounded-full
+  font-semibold
+  transition
+"
           >
             ♥ Donate
           </Link>
@@ -54,7 +63,16 @@ export default function Navbar() {
 
           <Link
             href="/donate"
-            className="bg-[#f3a4b5] text-white px-3 py-1 rounded-full text-sm font-medium"
+            className="
+  bg-red-500
+  hover:bg-red-600
+  text-white
+  px-6
+  py-2
+  rounded-full
+  font-semibold
+  transition
+"
           >
             ♥ Donate
           </Link>
