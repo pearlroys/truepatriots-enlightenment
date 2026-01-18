@@ -13,6 +13,7 @@ export default function About() {
           education, civic awareness and values driven leadership.
         </p>
   
+        
         {/* Section */}
         <section className="mt-20">
           <h2 className="text-2xl md:text-3xl font-semibold mb-6">
