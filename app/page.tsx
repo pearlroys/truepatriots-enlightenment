@@ -1,32 +1,30 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white text-gray-900">
-      <section className="max-w-4xl mx-auto px-6 py-24 text-center">
-        <h1 className="text-4xl md:text-5xl font-semibold leading-tight">
-          True Patriots Enlightenment
-        </h1>
+    <main className="max-w-7xl mx-auto px-6 py-24 text-center">
+      <h1 className="text-5xl font-bold mb-6">
+        True Patriots Enlightenment
+      </h1>
 
-        <p className="mt-6 text-lg text-gray-600">
-          Promoting knowledge, critical thinking, and civic awareness
-          through education, dialogue, and community engagement.
-        </p>
+      <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-10">
+        Promoting knowledge, critical thinking, and civic awareness through
+        education, dialogue, and community engagement.
+      </p>
 
-        <div className="mt-10 flex justify-center gap-4">
-          <a
-            href="/about"
-            className="px-6 py-3 rounded-md bg-black text-white"
-          >
-            Learn more
-          </a>
+      <div className="flex justify-center gap-4">
+        <a
+          href="/about"
+          className="bg-black text-white px-6 py-3 rounded-md"
+        >
+          Learn more
+        </a>
 
-          <a
-            href="/contact"
-            className="px-6 py-3 rounded-md border border-gray-300"
-          >
-            Get in touch
-          </a>
-        </div>
-      </section>
+        <a
+          href="/contact"
+          className="border px-6 py-3 rounded-md"
+        >
+          Get in touch
+        </a>
+      </div>
     </main>
   );
 }
