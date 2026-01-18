@@ -1,6 +1,6 @@
 export default function Donate() {
     return (
-      <main className="max-w-5xl mx-auto px-6 py-20">
+        <main className="max-w-6xl mx-auto px-4 md:px-6 py-16">
         <h1 className="text-4xl font-bold mb-6">Support Our Mission</h1>
   
         <p className="mb-6">
