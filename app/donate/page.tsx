@@ -1,22 +1,20 @@
-export default function Donate() {
+export default function DonatePage() {
     return (
-        <main className="max-w-6xl mx-auto px-4 md:px-6 py-16">
-        <h1 className="text-4xl font-bold mb-6">Support Our Mission</h1>
+      <main className="max-w-6xl mx-auto px-6 py-20 space-y-8">
   
-        <p className="mb-6">
-          Your contributions help us expand education, awareness,
-          and civic engagement.
+        <h1 className="text-3xl font-bold">Support Our Mission</h1>
+  
+        <p className="text-gray-700 leading-relaxed">
+          Your support enables civic education, leadership training and community
+          enlightenment across Africa.
         </p>
   
-        <div className="border rounded-lg p-6 max-w-md">
-          <p className="font-semibold mb-2">Donation Methods</p>
-          <ul className="space-y-2 text-sm">
-            <li>Bank transfer</li>
-            <li>Paystack</li>
-            <li>Flutterwave</li>
-            <li>PayPal</li>
-          </ul>
+        <div className="bg-gray-50 border rounded-lg p-6 max-w-md">
+          <p><strong>Account Name:</strong> True Patriot Enlightenment and Empowerment Organization</p>
+          <p><strong>Bank:</strong> Zenith Bank</p>
+          <p><strong>Account Number:</strong> 1310467426</p>
         </div>
+  
       </main>
     );
   }

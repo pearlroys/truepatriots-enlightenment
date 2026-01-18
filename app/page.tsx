@@ -1,30 +1,35 @@
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="max-w-6xl mx-auto px-4 md:px-6 py-16">
-      <h1 className="text-5xl font-bold mb-6">
-        True Patriots Enlightenment
-      </h1>
+    <main className="max-w-6xl mx-auto px-6 py-20 space-y-12">
 
-      <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-10">
-        Promoting knowledge, critical thinking, and civic awareness through
-        education, dialogue, and community engagement.
-      </p>
+      <section>
+        <h1 className="text-4xl font-bold mb-4">
+          True Patriots Enlightenment and Empowerment Organization
+        </h1>
 
-      <div className="flex justify-center gap-4">
-        <a
-          href="/about"
-          className="bg-black text-white px-6 py-3 rounded-md"
-        >
-          Learn more
-        </a>
+        <p className="text-lg text-gray-700">
+          Promoting integrity, civic responsibility and patriotic leadership
+          for the sustainable development of Africa.
+        </p>
+      </section>
 
-        <a
-          href="/contact"
-          className="border px-6 py-3 rounded-md"
-        >
-          Get in touch
-        </a>
-      </div>
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Why We Exist</h2>
+
+        <p className="text-gray-700 leading-relaxed">
+          Africa’s development challenges cannot be solved by natural resources
+          alone. They require enlightened citizens, ethical leadership and a
+          renewed sense of responsibility to society.
+        </p>
+
+        <p className="text-gray-700 leading-relaxed mt-4">
+          True Patriots Enlightenment and Empowerment Organization exists to
+          promote integrity, civic awareness and patriotic values that encourage
+          good governance, peaceful coexistence and sustainable development
+          across the African continent.
+        </p>
+      </section>
+
     </main>
   );
 }
