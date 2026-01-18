@@ -1,10 +1,10 @@
 export default function AboutPage() {
     return (
-      <main className="max-w-6xl mx-auto px-6 py-20 space-y-20">
+      <main className="min-h-screen bg-[#faf7f2] px-6 py-12">
   
         {/* WHO WE ARE */}
         <section>
-          <h1 className="text-4xl font-bold mb-6">About Us</h1>
+          <h1 className="text-3xl font-bold mb-6">About Us</h1>
   
           <p className="text-gray-700 leading-relaxed">
             True Patriots Enlightenment and Empowerment Organization is a non governmental,
