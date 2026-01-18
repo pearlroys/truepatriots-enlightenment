@@ -1,48 +1,101 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full border-b bg-white">
-      <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+    <nav className="bg-white border-b border-[var(--light-blue)] px-5 py-4">
 
-        {/* Logo */}
-        <h1 className="text-lg md:text-xl font-bold text-gray-900">
+      <div className="max-w-7xl mx-auto flex items-center justify-between">
+
+        {/* LOGO */}
+        <Link
+          href="/"
+          className="text-lg font-bold text-[var(--teal)]"
+        >
           True Patriots Enlightenment
-        </h1>
+        </Link>
 
-        {/* Desktop menu */}
-        <div className="hidden md:flex gap-6 text-gray-800 font-medium">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-          <Link href="/programs">Programs</Link>
-          <Link href="/achievements">Achievements</Link>
-          <Link href="/donate">Donate</Link>
-          <Link href="/contact">Contact</Link>
+        {/* DESKTOP NAV */}
+        <div className="hidden md:flex items-center gap-8 text-sm text-[var(--text-dark)]">
+
+          <Link href="/" className="hover:text-[var(--teal)]">
+            Home
+          </Link>
+
+          <Link href="/about" className="hover:text-[var(--teal)]">
+            About
+          </Link>
+
+          <Link href="/programs" className="hover:text-[var(--teal)]">
+            Programs
+          </Link>
+
+          <Link href="/achievements" className="hover:text-[var(--teal)]">
+            Achievements
+          </Link>
+
+          <Link
+            href="/donate"
+            className="bg-[var(--gold)] text-white px-4 py-2 rounded-full font-medium hover:opacity-90"
+          >
+            ♥ Donate
+          </Link>
         </div>
 
-        {/* Mobile button */}
-        <button
-          className="md:hidden text-2xl"
-          onClick={() => setOpen(!open)}
-        >
-          ☰
-        </button>
+        {/* MOBILE MENU */}
+        <div className="md:hidden flex items-center gap-4">
+
+          <Link
+            href="/donate"
+            className="bg-[var(--gold)] text-white px-3 py-1 rounded-full text-sm"
+          >
+            ♥ Donate
+          </Link>
+
+          <button
+            onClick={() => setOpen(!open)}
+            className="text-sm font-medium"
+          >
+            More ▾
+          </button>
+        </div>
       </div>
 
-      {/* Mobile menu */}
+      {/* MOBILE DROPDOWN */}
       {open && (
-        <div className="md:hidden bg-white border-t px-6 py-4 flex flex-col gap-4 text-gray-800 font-medium">
-          <Link href="/" onClick={() => setOpen(false)}>Home</Link>
-          <Link href="/about" onClick={() => setOpen(false)}>About</Link>
-          <Link href="/programs" onClick={() => setOpen(false)}>Programs</Link>
-          <Link href="/achievements" onClick={() => setOpen(false)}>Achievements</Link>
-          <Link href="/donate" onClick={() => setOpen(false)}>Donate</Link>
-          <Link href="/contact" onClick={() => setOpen(false)}>Contact</Link>
+        <div className="md:hidden mt-3 bg-white border border-[var(--soft-gray)] rounded-lg overflow-hidden text-sm">
+
+          <Link
+            href="/about"
+            className="block px-5 py-3 hover:bg-[var(--light-blue)]"
+          >
+            About
+          </Link>
+
+          <Link
+            href="/programs"
+            className="block px-5 py-3 hover:bg-[var(--light-blue)]"
+          >
+            Programs
+          </Link>
+
+          <Link
+            href="/achievements"
+            className="block px-5 py-3 hover:bg-[var(--light-blue)]"
+          >
+            Achievements
+          </Link>
+
+          <Link
+            href="/contact"
+            className="block px-5 py-3 hover:bg-[var(--light-blue)]"
+          >
+            Contact
+          </Link>
         </div>
       )}
     </nav>
