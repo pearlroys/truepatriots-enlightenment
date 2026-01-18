@@ -23,12 +23,13 @@ export default function About() {
             In January 2018, former United States President Donald Trump was widely reported
             to have described African countries, Haiti and El Salvador as shithole countries.
           </p>
-  
+
           <p className="max-w-4xl">
             The statement triggered deep reflection across Africa and the diaspora,
             raising difficult questions about governance, corruption and leadership accountability.
+
           </p>
-  
+
           <p className="max-w-4xl">
             These reflections led to the establishment of True Patriots Enlightenment and
             Empowerment Organization on 1st April 2021, with a commitment to promote
