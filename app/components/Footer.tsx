@@ -1,33 +1,36 @@
 export default function Footer() {
     return (
-      <footer className="bg-[#fdfbf7] border-t mt-20">
-        <div className="max-w-7xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-4 gap-10 text-gray-700">
+      <footer className="bg-[#faf7f2] border-t mt-24">
+        <div className="max-w-7xl mx-auto px-6 md:px-10 py-14 grid md:grid-cols-4 gap-10 text-gray-700">
   
-          {/* About */}
+          {/* LOGO */}
           <div>
-            <h3 className="text-teal-700 font-bold text-lg mb-3">
-              True Patriots Enlightenment
-            </h3>
+            <img
+              src="/logo/true-patriots-logo.png"
+              alt="True Patriots Enlightenment"
+              className="h-12 mb-4"
+            />
+  
             <p className="text-sm leading-relaxed">
-              Promoting knowledge, critical thinking, civic awareness and
-              responsible citizenship through education, dialogue and community engagement.
+              Promoting integrity, civic responsibility and patriotic leadership
+              for the sustainable development of Africa.
             </p>
           </div>
   
-          {/* Links */}
+          {/* LINKS */}
           <div>
-            <h4 className="font-semibold mb-3">Quick Links</h4>
+            <h4 className="font-semibold mb-4">Quick Links</h4>
             <ul className="space-y-2 text-sm">
-              <li>About Us</li>
+              <li>About</li>
               <li>Programs</li>
               <li>Achievements</li>
               <li>Contact</li>
             </ul>
           </div>
   
-          {/* Support */}
+          {/* SUPPORT */}
           <div>
-            <h4 className="font-semibold mb-3">Support</h4>
+            <h4 className="font-semibold mb-4">Support</h4>
             <ul className="space-y-2 text-sm">
               <li>Donate</li>
               <li>Volunteer</li>
@@ -36,21 +39,20 @@ export default function Footer() {
             </ul>
           </div>
   
-          {/* Contact */}
+          {/* CONTACT */}
           <div>
-            <h4 className="font-semibold mb-3">Contact</h4>
+            <h4 className="font-semibold mb-4">Contact</h4>
             <p className="text-sm">Email: info@truepatriotsenlightenment.org</p>
-            <p className="text-sm">Phone: +234 8033 027132</p>
-            <p className="text-sm mb-4">Location: Nigeria</p>
+            <p className="text-sm mt-1">Phone: +234 8033 027132</p>
+            <p className="text-sm mt-1">Location: Nigeria</p>
   
-            <button className="bg-red-500 hover:bg-red-600 text-white px-6 py-2 rounded-full text-sm font-semibold">
+            <button className="mt-4 bg-red-600 text-white px-5 py-2 rounded-full text-sm font-semibold">
               ♥ Support Our Work
             </button>
           </div>
-  
         </div>
   
-        <div className="text-center text-sm text-gray-500 py-4 border-t">
+        <div className="text-center text-sm text-gray-500 py-6 border-t">
           © 2026 True Patriots Enlightenment. All rights reserved.
         </div>
       </footer>

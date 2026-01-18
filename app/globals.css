@@ -12,23 +12,31 @@
   --soft-gray: #edf1f4;
 }
 
-/* Global page defaults */
+/* Global background */
 html,
 body {
-  background-color: #faf7f2; /* cream */
-  color: #1f2937; /* dark readable text */
+  background-color: #faf7f2;
+  color: #1f2937;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Links */
-a {
-  color: #2fa4a9;
+/* Typography spacing */
+h1 {
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
 }
 
 /* Donate button always red */
-.donate,
-.donate-btn,
-#donate {
+.donate-btn {
   background-color: #dc2626 !important;
   color: #ffffff !important;
 }
