@@ -3,21 +3,21 @@ export default function HomePage() {
     <main className="w-full">
 
       {/* HERO SECTION */}
-      <section className="bg-[#1F6F6B] text-white py-24 px-6">
+      <section className="bg-[#1F6F6B] text-white py-28 px-6">
         <div className="max-w-6xl mx-auto">
 
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-8 max-w-4xl">
             True Patriots Enlightenment and Empowerment Organization
           </h1>
 
-          <p className="text-lg md:text-xl text-white/90 max-w-3xl">
+          <p className="text-lg md:text-xl text-white/90 max-w-3xl leading-relaxed">
             Building integrity, civic responsibility and patriotic leadership
             for the sustainable development of Africa.
           </p>
 
           <a
             href="/donate"
-            className="inline-block mt-8 bg-[#E76F51] hover:bg-[#D45C42] text-white px-7 py-3 rounded-full font-semibold transition"
+            className="inline-block mt-10 bg-[#E76F51] hover:bg-[#D45C42] text-white px-8 py-3 rounded-full font-semibold transition"
           >
             ♥ Support Our Mission
           </a>
@@ -26,60 +26,68 @@ export default function HomePage() {
       </section>
 
       {/* WHY WE EXIST */}
-      <section className="bg-[#FAF7F2] py-20 px-6">
-        <div className="max-w-6xl mx-auto space-y-6">
+      <section className="bg-[#FAF7F2] py-24 px-6">
+        <div className="max-w-6xl mx-auto">
 
-          <h2 className="text-3xl font-bold text-[#1F2937]">
-            Why We Exist
-          </h2>
+          <div className="max-w-4xl space-y-8">
 
-          <div className="w-20 h-1 bg-[#F2B705]" />
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1F2937]">
+              Why We Exist
+            </h2>
 
-          <p className="text-gray-700 leading-relaxed max-w-4xl">
-            Africa’s development challenges cannot be solved by natural resources alone.
-            They require enlightened citizens, ethical leadership and a renewed sense
-            of responsibility to society.
-          </p>
+            <div className="w-20 h-1 bg-[#F2B705]" />
 
-          <p className="text-gray-700 leading-relaxed max-w-4xl">
-            True Patriots Enlightenment and Empowerment Organization exists to promote
-            integrity, civic awareness and patriotic values that encourage good governance,
-            peaceful coexistence and sustainable development across the African continent.
-          </p>
+            <p className="text-gray-700 leading-loose text-lg">
+              Africa’s development challenges cannot be solved by natural resources alone.
+              They require enlightened citizens, ethical leadership and a renewed sense
+              of responsibility to society.
+            </p>
 
+            <p className="text-gray-700 leading-loose text-lg">
+              True Patriots Enlightenment and Empowerment Organization exists to promote
+              integrity, civic awareness and patriotic values that encourage good governance,
+              peaceful coexistence and sustainable development across the African continent.
+            </p>
+
+          </div>
         </div>
       </section>
 
       {/* CHARACTER & PATRIOTISM */}
-      <section className="bg-white py-20 px-6">
-        <div className="max-w-6xl mx-auto space-y-6">
+      <section className="bg-white py-24 px-6">
+        <div className="max-w-6xl mx-auto">
 
-          <h2 className="text-3xl font-bold text-[#1F6F6B]">
-            Integrity, Honesty and True Patriotism
-          </h2>
+          <div className="max-w-4xl space-y-8">
 
-          <div className="w-20 h-1 bg-[#F2B705]" />
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1F6F6B]">
+              Integrity, Honesty and True Patriotism
+            </h2>
 
-          <p className="text-gray-700 leading-relaxed max-w-4xl">
-            Character is the true reflection of who we are. It is not inherited or gifted,
-            but built deliberately through discipline, conscience and responsibility.
-          </p>
+            <div className="w-20 h-1 bg-[#F2B705]" />
 
-          <p className="text-gray-700 leading-relaxed max-w-4xl">
-            True patriotism goes beyond slogans or symbols. It is the commitment to place
-            the interest of the nation above ethnicity, religion, greed and personal ambition.
-          </p>
+            <p className="text-gray-700 leading-loose text-lg">
+              Character is the true reflection of who we are. It defines our nature,
+              temperament and moral compass. It is not inherited or gifted,
+              but developed deliberately through discipline, conscience and responsibility.
+            </p>
 
-          <p className="text-gray-700 leading-relaxed max-w-4xl">
-            When integrity and honesty become the foundation of leadership and citizenship,
-            societies prosper, institutions strengthen and nations rise.
-          </p>
+            <p className="text-gray-700 leading-loose text-lg">
+              True patriotism goes beyond slogans or symbols. It is the willingness
+              of citizens and leaders to place the interest of the nation above ethnicity,
+              religion, greed and personal ambition.
+            </p>
 
-          <p className="italic text-gray-600 mt-6">
-            “Integrity, honesty and true patriotism are not just virtues,
-            they are the real solution for Africa.”
-          </p>
+            <p className="text-gray-700 leading-loose text-lg">
+              When integrity and honesty become the foundation of leadership and citizenship,
+              societies prosper, institutions strengthen and nations rise.
+            </p>
 
+            <blockquote className="border-l-4 border-[#E76F51] pl-6 italic text-gray-600 text-lg mt-8">
+              “Integrity, honesty and true patriotism are not just virtues —
+              they are the real solution for Africa.”
+            </blockquote>
+
+          </div>
         </div>
       </section>
 
