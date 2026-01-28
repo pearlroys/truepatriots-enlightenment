@@ -17,7 +17,7 @@ export default function HomePage() {
 
           <a
             href="/donate"
-            className="inline-block mt-8 bg-red-600 hover:bg-red-700 text-white px-7 py-3 rounded-full font-semibold transition"
+            className="inline-block mt-8 bg-[#E76F51] hover:bg-[#D45C42] text-white px-7 py-3 rounded-full font-semibold transition"
           >
             ♥ Support Our Mission
           </a>
