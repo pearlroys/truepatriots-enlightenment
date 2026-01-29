@@ -2,35 +2,47 @@ export default function HomePage() {
   return (
     <main className="w-full">
 
-      {/* HERO SECTION */}
+      {/* ================= HERO SECTION ================= */}
       <section className="bg-[#1F6F6B] text-white py-28 px-6">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
-          <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-8 max-w-4xl">
-            True Patriots Enlightenment and Empowerment Organization
-          </h1>
+          {/* TEXT */}
+          <div>
+            <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-8 max-w-4xl">
+              True Patriots Enlightenment and Empowerment Organization
+            </h1>
 
-          <p className="text-lg md:text-xl text-white/90 max-w-3xl leading-relaxed">
-            Building integrity, civic responsibility and patriotic leadership
-            for the sustainable development of Africa.
-          </p>
+            <p className="text-lg md:text-xl text-white/90 max-w-3xl leading-relaxed">
+              Building integrity, civic responsibility and patriotic leadership
+              for the sustainable development of Africa.
+            </p>
 
-          <a
-            href="/donate"
-            className="inline-block mt-8 bg-[#E76F51] hover:bg-[#D45C42] !text-white no-underline px-7 py-3 rounded-full font-semibold transition"
-          >
-            ♥ Support Our Mission
-          </a>
+            <a
+              href="/donate"
+              className="inline-block mt-8 bg-[#E76F51] hover:bg-[#D45C42] !text-white no-underline px-7 py-3 rounded-full font-semibold transition"
+            >
+              ♥ Support Our Mission
+            </a>
+          </div>
+
+          {/* IMAGE p5 */}
+          <div className="hidden md:block">
+            <img
+              src="/images/patriotism/p5.jpeg"
+              alt="Patriotism leadership"
+              className="rounded-2xl shadow-xl object-cover w-full h-[420px]"
+            />
+          </div>
 
         </div>
       </section>
 
-      {/* WHY WE EXIST */}
+      {/* ================= WHY WE EXIST ================= */}
       <section className="bg-[#FAF7F2] py-24 px-6">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
-          <div className="max-w-4xl space-y-8">
-
+          {/* TEXT */}
+          <div className="space-y-8 max-w-4xl">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1F2937]">
               Why We Exist
             </h2>
@@ -48,17 +60,35 @@ export default function HomePage() {
               integrity, civic awareness and patriotic values that encourage good governance,
               peaceful coexistence and sustainable development across the African continent.
             </p>
-
           </div>
+
+          {/* IMAGE p6 */}
+          <div>
+            <img
+              src="/images/patriotism/p6.jpeg"
+              alt="African unity"
+              className="rounded-2xl shadow-lg object-cover w-full h-[380px]"
+            />
+          </div>
+
         </div>
       </section>
 
-      {/* CHARACTER & PATRIOTISM */}
+      {/* ================= CHARACTER & PATRIOTISM ================= */}
       <section className="bg-white py-24 px-6">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
-          <div className="max-w-4xl space-y-8">
+          {/* IMAGE p7 */}
+          <div>
+            <img
+              src="/images/patriotism/p7.jpeg"
+              alt="Integrity and patriotism"
+              className="rounded-2xl shadow-lg object-cover w-full h-[380px]"
+            />
+          </div>
 
+          {/* TEXT */}
+          <div className="space-y-8 max-w-4xl">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1F6F6B]">
               Integrity, Honesty and True Patriotism
             </h2>
@@ -136,7 +166,7 @@ export default function HomePage() {
 
             <div className="text-center">
               <img
-                src="/images/leaders/woman3.jpeg"
+                src="/images/leaders/woman2.jpeg"
                 className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
               />
               <h3 className="mt-6 font-semibold text-lg">
@@ -150,7 +180,7 @@ export default function HomePage() {
 
             <div className="text-center">
               <img
-                src="/images/leaders/woman2.jpeg"
+                src="/images/leaders/woman3.jpeg"
                 className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
               />
               <h3 className="mt-6 font-semibold text-lg">
