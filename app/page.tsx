@@ -136,7 +136,7 @@ export default function HomePage() {
 
             <div className="text-center">
               <img
-                src="/images/leaders/woman1.jpeg"
+                src="/images/leaders/woman3.jpeg"
                 className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
               />
               <h3 className="mt-6 font-semibold text-lg">
@@ -150,7 +150,7 @@ export default function HomePage() {
 
             <div className="text-center">
               <img
-                src="/images/leaders/woman2.jpg"
+                src="/images/leaders/woman2.jpeg"
                 className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
               />
               <h3 className="mt-6 font-semibold text-lg">
