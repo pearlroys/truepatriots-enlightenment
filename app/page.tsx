@@ -100,10 +100,10 @@ export default function HomePage() {
           </h2>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-            <img src="/images/patriotism/p1.jpg" className="rounded-xl object-cover h-64 w-full" />
-            <img src="/images/patriotism/p2.jpg" className="rounded-xl object-cover h-64 w-full" />
-            <img src="/images/patriotism/p3.jpg" className="rounded-xl object-cover h-64 w-full" />
-            <img src="/images/patriotism/p4.jpg" className="rounded-xl object-cover h-64 w-full" />
+            <img src="/images/patriotism/p1.jpeg" className="rounded-xl object-cover h-64 w-full" />
+            <img src="/images/patriotism/p2.jpeg" className="rounded-xl object-cover h-64 w-full" />
+            <img src="/images/patriotism/p3.jpeg" className="rounded-xl object-cover h-64 w-full" />
+            <img src="/images/patriotism/p4.jpeg" className="rounded-xl object-cover h-64 w-full" />
           </div>
 
         </div>
@@ -121,7 +121,7 @@ export default function HomePage() {
 
             <div className="text-center">
               <img
-                src="/images/leaders/convener.jpg"
+                src="/images/leaders/convener.jpeg"
                 className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
               />
               <h3 className="mt-6 font-semibold text-lg">
@@ -136,7 +136,7 @@ export default function HomePage() {
 
             <div className="text-center">
               <img
-                src="/images/leaders/woman1.jpg"
+                src="/images/leaders/woman1.jpeg"
                 className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
               />
               <h3 className="mt-6 font-semibold text-lg">
@@ -164,7 +164,7 @@ export default function HomePage() {
 
             <div className="text-center">
               <img
-                src="/images/leaders/man1.jpg"
+                src="/images/leaders/man1.jpeg"
                 className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
               />
               <h3 className="mt-6 font-semibold text-lg">
