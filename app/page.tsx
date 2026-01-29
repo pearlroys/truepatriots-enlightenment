@@ -28,7 +28,7 @@ export default function HomePage() {
           {/* IMAGE p5 */}
           <div className="hidden md:block">
             <img
-              src="/images/patriotism/p5.jpeg"
+              src="/images/patriotism/p10.jpeg"
               alt="Patriotism leadership"
               className="rounded-2xl shadow-xl object-cover w-full h-[420px]"
             />
@@ -79,7 +79,7 @@ export default function HomePage() {
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
           {/* IMAGE p7 */}
-          <div>
+          <div className="md:order-2 order-1">
             <img
               src="/images/patriotism/p7.jpeg"
               alt="Integrity and patriotism"
@@ -88,7 +88,7 @@ export default function HomePage() {
           </div>
 
           {/* TEXT */}
-          <div className="space-y-8 max-w-4xl">
+          <div className="space-y-8 max-w-4xl md:order-1 order-2">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1F6F6B]">
               Integrity, Honesty and True Patriotism
             </h2>
