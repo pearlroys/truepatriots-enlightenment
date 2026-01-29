@@ -91,6 +91,96 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* PATRIOTISM IMAGES */}
+      <section className="bg-[#FAF7F2] py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1F2937] mb-12">
+            Patriotism in Action
+          </h2>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
+            <img src="/images/patriotism/p1.jpg" className="rounded-xl object-cover h-64 w-full" />
+            <img src="/images/patriotism/p2.jpg" className="rounded-xl object-cover h-64 w-full" />
+            <img src="/images/patriotism/p3.jpg" className="rounded-xl object-cover h-64 w-full" />
+            <img src="/images/patriotism/p4.jpg" className="rounded-xl object-cover h-64 w-full" />
+          </div>
+
+        </div>
+      </section>
+
+      {/* LEADERSHIP */}
+      <section className="bg-white py-28 px-6">
+        <div className="max-w-6xl mx-auto">
+
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1F6F6B] mb-16">
+            Our Leadership
+          </h2>
+
+          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-14">
+
+            <div className="text-center">
+              <img
+                src="/images/leaders/convener.jpg"
+                className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
+              />
+              <h3 className="mt-6 font-semibold text-lg">
+                Dr. Roys Okon Ikedionu
+              </h3>
+              <p className="text-sm text-gray-500 mb-3">Founder and Convener</p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                Veterinary surgeon, pharmacist and community leader committed to
+                integrity, honesty and true patriotism.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <img
+                src="/images/leaders/woman1.jpg"
+                className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
+              />
+              <h3 className="mt-6 font-semibold text-lg">
+                Ezejioha Chioma Victoria
+              </h3>
+              <p className="text-sm text-gray-500 mb-3">Public Relations Officer</p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                Oversees media relations, outreach coordination and public communication.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <img
+                src="/images/leaders/woman2.jpg"
+                className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
+              />
+              <h3 className="mt-6 font-semibold text-lg">
+                Olori Henrietta Nonye Borky-Bakre
+              </h3>
+              <p className="text-sm text-gray-500 mb-3">Treasurer</p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                Administrator and marketing consultant with strong focus on accountability.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <img
+                src="/images/leaders/man1.jpg"
+                className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
+              />
+              <h3 className="mt-6 font-semibold text-lg">
+                Amb. Dr. Victor Ehiohren Osadolor
+              </h3>
+              <p className="text-sm text-gray-500 mb-3">Board of Trustees</p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                President and CEO of Character Media Inc Network International
+                and advocate for ethical leadership.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
     </main>
   );
 }
