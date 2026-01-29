@@ -81,7 +81,7 @@ export default function HomePage() {
           {/* IMAGE p7 */}
           <div className="md:order-2 order-1">
             <img
-              src="/images/patriotism/p7.jpeg"
+              src="/images/patriotism/p5.jpeg"
               alt="Integrity and patriotism"
               className="rounded-2xl shadow-lg object-cover w-full h-[380px]"
             />
