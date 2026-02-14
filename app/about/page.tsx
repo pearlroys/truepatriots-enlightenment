@@ -111,12 +111,11 @@ export default function About() {
             <li>• Annual award dinners recognizing exemplary patriotism</li>
           </ul>
         </section>
-
       </div>
 
       {/* SOFT CONTRAST BAND */}
       <div className="bg-[#FAF7F2]">
-        <div className="max-w-6xl mx-auto px-6 md:px-10 py-20 space-y-24">
+        <div className="max-w-6xl mx-auto px-6 md:px-10 py-12 space-y-14">
 
           <section>
             <h2 className="text-3xl font-bold text-[#1F6F6B] mb-8">Our Core Values</h2>
