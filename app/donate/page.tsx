@@ -3,6 +3,16 @@ export default function DonatePage() {
     <main className="bg-[#fdfbf7] py-24 px-6">
       <div className="max-w-5xl mx-auto">
 
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+          Support the Work We’re Doing
+        </h1>
+
+        <p className="text-gray-600 max-w-2xl mb-14 text-lg">
+          Your support makes civic education, leadership development and community
+          enlightenment across Africa possible. Every contribution helps move the work
+          forward.
+        </p>
+
         <div className="bg-white rounded-2xl shadow-lg p-10 max-w-xl border">
 
           <h2 className="text-xl font-semibold mb-6 text-gray-800">
@@ -28,21 +38,22 @@ export default function DonatePage() {
           </a>
 
           <div className="text-center">
-            <span className="
-              inline-block
-              bg-[#f87171]
-              text-white
-              px-6 py-3
-              rounded-full
-              font-medium
-              text-sm
-            ">
+            <span
+              className="
+                inline-block
+                bg-[#fca5a5]
+                text-red-900
+                px-6 py-3
+                rounded-full
+                font-medium
+                text-sm
+              "
+            >
               Thank you for believing in Africa’s future
             </span>
           </div>
 
         </div>
-
       </div>
     </main>
   );
