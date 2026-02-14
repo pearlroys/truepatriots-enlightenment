@@ -1,13 +1,13 @@
 export default function DonatePage() {
   return (
     <main className="bg-[#fdfbf7] py-24 px-6">
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-5xl mx-auto">
 
-        <div className="bg-white rounded-3xl border p-12">
+        <div className="bg-white rounded-2xl shadow-lg p-10 max-w-xl border">
 
-          <h1 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-10">
+          <h2 className="text-xl font-semibold mb-6 text-gray-800">
             Make a Donation
-          </h1>
+          </h2>
 
           <a
             href="https://paystack.shop/pay/truepatriots-donations"
@@ -15,21 +15,31 @@ export default function DonatePage() {
             rel="noopener noreferrer"
             className="
               block w-full text-center
-              bg-[#0f172a] hover:bg-[#020617]
+              bg-[#1f2937] hover:bg-[#111827]
               text-white
               px-6 py-4
-              rounded-2xl
-              font-medium text-base
+              rounded-xl
+              font-semibold text-lg
               transition
-              mb-12
+              mb-10
             "
           >
             Donate
           </a>
 
-          <p className="text-center text-sm text-gray-500">
-            Thank you for believing in Africa’s future
-          </p>
+          <div className="text-center">
+            <span className="
+              inline-block
+              bg-[#f87171]
+              text-white
+              px-6 py-3
+              rounded-full
+              font-medium
+              text-sm
+            ">
+              Thank you for believing in Africa’s future
+            </span>
+          </div>
 
         </div>
 
