@@ -64,7 +64,7 @@ export default function Footer() {
           <h4 className="font-semibold mb-3">Join Us</h4>
 
           <p className="text-gray-700 text-sm">
-            Email: info@truepatriotsenlightenment.org
+            Email: info@truepatriotsenlightenment.com
           </p>
 
           <p className="text-gray-700 text-sm mt-2">
