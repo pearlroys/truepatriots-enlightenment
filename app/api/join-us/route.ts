@@ -9,7 +9,7 @@ export async function POST(req: Request) {
 
     await resend.emails.send({
       from: "True Patriots <onboarding@resend.dev>",
-      to: ["pearl_chisom@yahoo.com"],
+      to: ["info@truepatriotsenlightenment.com"],
       subject: "New Join Us Registration",
       html: `
         <h2>New Registration</h2>
