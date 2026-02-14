@@ -15,7 +15,39 @@ export default function About() {
           civic responsibility and values-driven leadership.
         </p>
 
-        {/* SECTION */}
+        {/* HISTORY */}
+        <section className="mb-24">
+          <h2 className="text-3xl font-bold text-[#1F6F6B] mb-6">Our History</h2>
+          <div className="w-20 h-1 bg-[#F2B705] mb-8" />
+
+          <div className="space-y-6 text-gray-700 leading-loose max-w-4xl">
+            <p>
+              In January 2018, former United States President Donald Trump was
+              reported to have referred to African countries, Haiti and El
+              Salvador as “shithole countries.” In 2019, similar remarks were
+              attributed to Russian President Vladimir Putin.
+            </p>
+
+            <p>
+              These comments exposed uncomfortable truths and sparked deep
+              reflection on governance, corruption, leadership failures and the
+              absence of true patriotism across Africa.
+            </p>
+
+            <p>
+              Rather than demanding apologies, the founder believed Africa needed
+              introspection, character reformation and a renewed commitment to
+              integrity and civic responsibility.
+            </p>
+
+            <p>
+              On the 1st of April 2021, this conviction gave birth to the True
+              Patriots Enlightenment and Empowerment Organization.
+            </p>
+          </div>
+        </section>
+
+        {/* MISSION */}
         <section className="mb-24">
           <h2 className="text-3xl font-bold text-[#1F6F6B] mb-6">Our Mission</h2>
           <div className="w-20 h-1 bg-[#F2B705] mb-8" />
@@ -26,12 +58,14 @@ export default function About() {
               non-regional, gender-neutral and color-blind organization devoted
               to the rebirth of Africa and the entrenchment of true patriotism.
             </p>
+
             <p>
               We pursue this mission through enlightenment, orientation and civic
               engagement centered on ideal civic behaviour, civic rights and
               responsibilities, honesty, integrity, selflessness and peaceful
               coexistence.
             </p>
+
             <p>
               Our outreach includes public lectures, seminars, conventions,
               symposia, annual award dinners, media appearances and digital
@@ -40,7 +74,7 @@ export default function About() {
           </div>
         </section>
 
-        {/* SECTION */}
+        {/* VISION */}
         <section className="mb-24">
           <h2 className="text-3xl font-bold text-[#1F6F6B] mb-6">Our Vision</h2>
           <div className="w-20 h-1 bg-[#F2B705] mb-8" />
@@ -50,11 +84,13 @@ export default function About() {
               We envision an Africa governed by leaders of integrity,
               accountability, honesty and genuine love for their people.
             </p>
+
             <p>
               Our vision includes collaboration with governments at all levels,
               professional bodies, security agencies, religious institutions,
               trade unions and international organizations.
             </p>
+
             <p>
               Our teachings are persuasive rather than confrontational, aimed at
               rejuvenating the African mind through education and example.
@@ -62,7 +98,7 @@ export default function About() {
           </div>
         </section>
 
-        {/* SECTION */}
+        {/* WHAT WE DO */}
         <section className="mb-24">
           <h2 className="text-3xl font-bold text-[#1F6F6B] mb-6">What We Do</h2>
           <div className="w-20 h-1 bg-[#F2B705] mb-8" />
@@ -111,30 +147,6 @@ export default function About() {
 
       <div className="max-w-6xl mx-auto px-6 md:px-10 py-24">
 
-        {/* HISTORY */}
-        <section className="mb-24">
-          <h2 className="text-3xl font-bold text-[#1F6F6B] mb-6">Our History</h2>
-          <div className="w-20 h-1 bg-[#F2B705] mb-8" />
-
-          <div className="space-y-6 text-gray-700 leading-loose max-w-4xl">
-            <p>
-              In January 2018, former United States President Donald Trump was
-              reported to have referred to African countries, Haiti and El
-              Salvador as “shithole countries.” In 2019, similar remarks were
-              attributed to Russian President Vladimir Putin.
-            </p>
-            <p>
-              These comments exposed uncomfortable truths and sparked deep
-              reflection on governance, corruption, leadership failures and the
-              absence of true patriotism across Africa.
-            </p>
-            <p>
-              On the 1st of April 2021, this conviction gave birth to the True
-              Patriots Enlightenment and Empowerment Organization.
-            </p>
-          </div>
-        </section>
-
         {/* FUNDING */}
         <section className="mb-24">
           <h2 className="text-3xl font-bold text-[#1F6F6B] mb-6">
@@ -147,9 +159,15 @@ export default function About() {
               The organization is funded through member contributions, crowd
               funding, grants, donations and institutional support.
             </p>
+
             <p>
               We uphold strict financial transparency through audited accounts,
               quarterly reviews and open reporting to members.
+            </p>
+
+            <p>
+              Accountability is a core teaching of the organization and forms
+              the foundation of our credibility.
             </p>
           </div>
         </section>
@@ -164,7 +182,8 @@ export default function About() {
           <p className="text-gray-700 leading-loose max-w-4xl">
             True Patriots is a strictly non-partisan organization. While members
             are free to participate in politics individually, the organization
-            does not endorse political parties or candidates.
+            does not endorse political parties or candidates and forbids the use
+            of its name for political negotiations or campaigns.
           </p>
         </section>
 
