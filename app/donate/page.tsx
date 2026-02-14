@@ -1,38 +1,41 @@
 export default function DonatePage() {
-    return (
-      <main className="bg-[#fdfbf7] py-20 px-6">
-        <div className="max-w-5xl mx-auto">
-  
-          <h1 className="text-4xl font-bold mb-4 text-gray-900">
-            Support Our Mission
-          </h1>
-  
-          <p className="text-gray-600 max-w-2xl mb-10">
-            Your support enables civic education, leadership training and community
-            enlightenment across Africa.
-          </p>
-  
-          <div className="bg-white rounded-2xl shadow-md p-8 max-w-xl border">
-  
-            <h2 className="text-xl font-semibold mb-4 text-gray-800">
-              Donation Details
-            </h2>
-  
-            <div className="space-y-2 text-gray-700">
-              <p><strong>Account Name:</strong> True Patriot Enlightenment and Empowerment Organization</p>
-              <p><strong>Bank:</strong> Zenith Bank</p>
-              <p><strong>Account Number:</strong> 1310467426</p>
-            </div>
-  
-            <div className="mt-6">
-              <span className="inline-block bg-red-500 text-white px-6 py-3 rounded-full font-semibold">
-                Thank you for supporting Africa’s future
-              </span>
-            </div>
-  
+  return (
+    <main className="bg-[#fdfbf7] py-24 px-6">
+      <div className="max-w-5xl mx-auto">
+
+        <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+          Support the Work We’re Doing
+        </h1>
+
+        <p className="text-gray-600 max-w-2xl mb-14 text-lg">
+          Your support makes civic education, leadership development and community
+          enlightenment across Africa possible. Every contribution helps move the work
+          forward.
+        </p>
+
+        <div className="bg-white rounded-2xl shadow-lg p-10 max-w-xl border">
+
+          <h2 className="text-xl font-semibold mb-6 text-gray-800">
+            Make a Donation
+          </h2>
+
+          <a
+            href="https://paystack.shop/pay/truepatriots-donations"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full text-center bg-gray-900 hover:bg-gray-800 text-white px-6 py-4 rounded-xl font-semibold text-lg transition mb-10"
+          >
+            Donate
+          </a>
+
+          <div className="text-center">
+            <span className="inline-block bg-red-500 text-white px-6 py-3 rounded-full font-semibold">
+              Thank you for believing in Africa’s future
+            </span>
           </div>
+
         </div>
-      </main>
-    );
-  }
-  
+      </div>
+    </main>
+  );
+}
