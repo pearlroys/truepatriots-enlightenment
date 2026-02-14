@@ -44,8 +44,8 @@ export default function Footer() {
           <ul className="space-y-2 text-gray-700 text-sm">
             <li><Link href="/about">About</Link></li>
             <li><Link href="/programs">Programs</Link></li>
-            <li><Link href="/achievements">Achievements</Link></li>
-            <li><Link href="/contact">Contact</Link></li>
+            <li><Link href="/blogs">Blogs</Link></li>
+            <li><Link href="/join-us">Join Us</Link></li>
           </ul>
         </div>
 
@@ -62,7 +62,7 @@ export default function Footer() {
 
         {/* CONTACT */}
         <div>
-          <h4 className="font-semibold mb-3">Contact</h4>
+          <h4 className="font-semibold mb-3">Join Us</h4>
 
           <p className="text-gray-700 text-sm">
             Email: info@truepatriotsenlightenment.org

@@ -33,12 +33,12 @@ export default function Navbar() {
             Programs
           </Link>
 
-          <Link href="/achievements" className="text-sm font-medium text-gray-700 hover:text-black">
-            Achievements
+          <Link href="/blogs" className="text-sm font-medium text-gray-700 hover:text-black">
+            Blogs
           </Link>
 
-          <Link href="/contact" className="text-sm font-medium text-gray-700 hover:text-black">
-            Contact
+          <Link href="/join-us" className="text-sm font-medium text-gray-700 hover:text-black">
+            Join Us
           </Link>
 
           <Link
@@ -106,19 +106,19 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/achievements"
+            href="/blogs"
             onClick={() => setOpen(false)}
             className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
           >
-            Achievements
+            Blogs
           </Link>
 
           <Link
-            href="/contact"
+            href="/join-us"
             onClick={() => setOpen(false)}
             className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
           >
-            Contact
+            Join Us
           </Link>
         </div>
       )}
