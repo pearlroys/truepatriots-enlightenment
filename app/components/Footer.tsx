@@ -54,7 +54,6 @@ export default function Footer() {
           <h4 className="font-semibold mb-3">Support</h4>
           <ul className="space-y-2 text-gray-700 text-sm">
             <li><Link href="/donate">Donate</Link></li>
-            <li>Volunteer</li>
             <li>Partnerships</li>
             <li>FAQs</li>
           </ul>
