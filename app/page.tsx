@@ -177,12 +177,21 @@ export default function HomePage() {
             <div className="text-center">
               <img src="/images/leaders/woman4.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">Olori Henrietta Nonye Borky-Bakre</h3>
-              <p className="text-sm text-gray-500 mb-3">Treasurer</p>
+              <p className="text-sm text-gray-500 mb-3">Treasurer</p> 
+              <p className="text-sm text-gray-700 leading-relaxed"> 
+                Administrator and marketing consultant with strong focus on accountability. 
+              </p> 
             </div>
 
             <div className="text-center">
               <img src="/images/leaders/man5.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">AMB.DR. VICTOR OSADOLOR</h3>
+              <p className="text-sm text-gray-500 mb-3">Board of Trustees</p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                President and CEO of Character Media Inc Network International,
+                a respected advocate for ethical leadership, civic enlightenment
+                and value based national development.
+              </p>
             </div>
 
             <div className="text-center">
@@ -197,6 +206,11 @@ export default function HomePage() {
             <div className="text-center">
               <img src="/images/leaders/woman7.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">Ezejioha Chioma Victoria</h3>
+              <p className="text-sm text-gray-500 mb-3">Public Relations Officer</p>
+              <p className="text-sm text-gray-700 leading-relaxed">   
+                Public Relations Officer of the True Patriots Enlightenment
+                and Empowerment Organization.
+              </p>
             </div>
 
           </div>
