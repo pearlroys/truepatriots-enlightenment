@@ -3,8 +3,14 @@ export default function HomePage() {
     <main className="w-full">
 
       {/* ================= HERO SECTION ================= */}
-      <section className="bg-[#1F6F6B] text-white py-28 px-6">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
+      <section
+        className="relative text-white py-28 px-6 bg-cover bg-center"
+        style={{ backgroundImage: "url('/images/patriotism/patriot-hero.png')" }}
+      >
+        {/* overlay to keep text readable */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/20"></div>
+
+        <div className="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
           <div>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-8 max-w-4xl">
@@ -24,13 +30,7 @@ export default function HomePage() {
             </a>
           </div>
 
-          <div className="hidden md:block">
-            <img
-              src="/images/patriotism/p10.jpeg"
-              alt="Patriotism leadership"
-              className="rounded-2xl shadow-xl object-cover w-full h-[420px]"
-            />
-          </div>
+          <div></div>
 
         </div>
       </section>
