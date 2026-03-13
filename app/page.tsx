@@ -6,7 +6,6 @@ export default function HomePage() {
       <section className="bg-[#1F6F6B] text-white py-28 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
-          {/* TEXT */}
           <div>
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-8 max-w-4xl">
               True Patriots Enlightenment and Empowerment Organization
@@ -25,7 +24,6 @@ export default function HomePage() {
             </a>
           </div>
 
-          {/* IMAGE p5 */}
           <div className="hidden md:block">
             <img
               src="/images/patriotism/p10.jpeg"
@@ -41,7 +39,6 @@ export default function HomePage() {
       <section className="bg-[#FAF7F2] py-24 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
-          {/* TEXT */}
           <div className="space-y-8 max-w-4xl">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1F2937]">
               Why We Exist
@@ -62,7 +59,6 @@ export default function HomePage() {
             </p>
           </div>
 
-          {/* IMAGE p6 */}
           <div>
             <img
               src="/images/patriotism/p6.jpeg"
@@ -78,7 +74,6 @@ export default function HomePage() {
       <section className="bg-white py-24 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
-          {/* IMAGE p7 */}
           <div className="md:order-2 order-1">
             <img
               src="/images/patriotism/p5.jpeg"
@@ -87,7 +82,6 @@ export default function HomePage() {
             />
           </div>
 
-          {/* TEXT */}
           <div className="space-y-8 max-w-4xl md:order-1 order-2">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1F6F6B]">
               Integrity, Honesty and True Patriotism
@@ -147,16 +141,11 @@ export default function HomePage() {
             Our Leadership
           </h2>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-14">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-14">
 
             <div className="text-center">
-              <img
-                src="/images/leaders/convener.jpeg"
-                className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
-              />
-              <h3 className="mt-6 font-semibold text-lg">
-                Dr. Roys Okon Ikedionu
-              </h3>
+              <img src="/images/leaders/convener.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+              <h3 className="mt-6 font-semibold text-lg">Dr. Roys Okon Ikedionu</h3>
               <p className="text-sm text-gray-500 mb-3">Founder and Convener</p>
               <p className="text-sm text-gray-700 leading-relaxed">
                 Veterinary surgeon, pharmacist and community leader committed to
@@ -165,46 +154,49 @@ export default function HomePage() {
             </div>
 
             <div className="text-center">
-              <img
-                src="/images/leaders/woman2.jpeg"
-                className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
-              />
-              <h3 className="mt-6 font-semibold text-lg">
-                Ezejioha Chioma Victoria
-              </h3>
-              <p className="text-sm text-gray-500 mb-3">Public Relations Officer</p>
+              <img src="/images/leaders/man2.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+              <h3 className="mt-6 font-semibold text-lg">Dr Jesse Gwandi (Yerima)</h3>
+              <p className="text-sm text-gray-500 mb-3">Vice President / BOT Member</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Oversees media relations, outreach coordination and public communication.
+                Veterinary Surgeon, philanthropist and community leader,
+                Member BOT and Vice President of the True Patriots Enlightenment
+                and Empowerment Organization.
               </p>
             </div>
 
             <div className="text-center">
-              <img
-                src="/images/leaders/woman3.jpeg"
-                className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
-              />
-              <h3 className="mt-6 font-semibold text-lg">
-                Olori Henrietta Nonye Borky-Bakre
-              </h3>
+              <img src="/images/leaders/man3.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+              <h3 className="mt-6 font-semibold text-lg">Mudassir Mustapha Umar</h3>
+              <p className="text-sm text-gray-500 mb-3">Youth & Student Coordinator</p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                CEO of Mudassir Homes and Plots and Youth/Student Coordinator
+                of the True Patriots Enlightenment and Empowerment Organization.
+              </p>
+            </div>
+
+            <div className="text-center">
+              <img src="/images/leaders/woman4.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+              <h3 className="mt-6 font-semibold text-lg">Olori Henrietta Nonye Borky-Bakre</h3>
               <p className="text-sm text-gray-500 mb-3">Treasurer</p>
+            </div>
+
+            <div className="text-center">
+              <img src="/images/leaders/man5.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+              <h3 className="mt-6 font-semibold text-lg">AMB.DR. VICTOR OSADOLOR</h3>
+            </div>
+
+            <div className="text-center">
+              <img src="/images/leaders/man6.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+              <h3 className="mt-6 font-semibold text-lg">Comrade Isaac A. Obasi</h3>
+              <p className="text-sm text-gray-500 mb-3">General Secretary</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Administrator and marketing consultant with strong focus on accountability.
+                Advocacy Journalist, Media Officer and Human Rights Activist.
               </p>
             </div>
 
             <div className="text-center">
-              <img
-                src="/images/leaders/man1.jpeg"
-                className="w-44 h-44 mx-auto rounded-full object-cover shadow-md"
-              />
-              <h3 className="mt-6 font-semibold text-lg">
-                Amb. Dr. Victor Ehiohren Osadolor
-              </h3>
-              <p className="text-sm text-gray-500 mb-3">Board of Trustees</p>
-              <p className="text-sm text-gray-700 leading-relaxed">
-                President and CEO of Character Media Inc Network International
-                and advocate for ethical leadership.
-              </p>
+              <img src="/images/leaders/woman7.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+              <h3 className="mt-6 font-semibold text-lg">Ezejioha Chioma Victoria</h3>
             </div>
 
           </div>
