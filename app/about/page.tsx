@@ -111,7 +111,6 @@ export default function About() {
         <section className="mb-24">
           <h2 className="text-3xl font-bold text-[#1F6F6B] mb-6">What We Do</h2>
           <div className="w-20 h-1 bg-[#F2B705] mb-8" />
-
           <ul className="space-y-4 text-gray-700 text-lg max-w-4xl">
             <li>• Civic education in streets, markets and public spaces</li>
             <li>• Outreach in churches, mosques and community gatherings</li>
@@ -123,14 +122,14 @@ export default function About() {
       </div>
 
       <section className="mb-24">
-        <div className="max-w-4xl mx-auto overflow-hidden rounded-2xl shadow-lg">
-          <img
-            src="/images/about/about-vision-work.png"
-            alt="African community members helping one another"
-            className="w-full h-[180px] md:h-[230px] object-cover"
-          />
-        </div>
-      </section>
+          <div className="max-w-4xl mx-auto overflow-hidden rounded-2xl shadow-lg">
+            <img
+              src="/images/about/about-vision-work.png"
+              // alt="Black African people working together with focus and purpose"
+              className="w-full h-[180px] md:h-[230px] object-cover"
+            />
+          </div>
+        </section>
 
       {/* SOFT CONTRAST BAND */}
       <div className="bg-[#FAF7F2]">
