@@ -73,6 +73,15 @@ export default function About() {
             </p>
           </div>
         </section>
+        <section className="mb-24">
+          <div className="max-w-4xl mx-auto overflow-hidden rounded-2xl shadow-lg">
+            <img
+              src="/images/about/about-history-mission.png"
+              alt="African community members helping one another"
+              className="w-full h-[180px] md:h-[230px] object-cover"
+            />
+          </div>
+        </section>
 
         {/* VISION */}
         <section className="mb-24">
@@ -113,6 +122,16 @@ export default function About() {
         </section>
       </div>
 
+      <section className="mb-24">
+        <div className="max-w-4xl mx-auto overflow-hidden rounded-2xl shadow-lg">
+          <img
+            src="/images/about/about-vision-work.png"
+            alt="African community members helping one another"
+            className="w-full h-[180px] md:h-[230px] object-cover"
+          />
+        </div>
+      </section>
+
       {/* SOFT CONTRAST BAND */}
       <div className="bg-[#FAF7F2]">
         <div className="max-w-6xl mx-auto px-6 md:px-10 py-12 space-y-14">
@@ -145,6 +164,16 @@ export default function About() {
       </div>
 
       <div className="max-w-6xl mx-auto px-6 md:px-10 py-24">
+
+        <section className="mb-24">
+          <div className="max-w-4xl mx-auto overflow-hidden rounded-2xl shadow-lg">
+            <img
+              src="/images/about/about-accountability-politics.png"
+              alt="African community members helping one another"
+              className="w-full h-[180px] md:h-[230px] object-cover"
+            />
+          </div>
+        </section>
 
         {/* FUNDING */}
         <section className="mb-24">
