@@ -15,7 +15,7 @@ export default function HomePage() {
 
         <div className="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
 
-          <div>
+          <div className="max-w-2xl">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-8 max-w-4xl">
               True Patriots Enlightenment and Empowerment Organization
             </h1>
@@ -39,7 +39,7 @@ export default function HomePage() {
       </section>
 
       {/* ================= WHY WE EXIST ================= */}
-      <section className="bg-[#FAF7F2] py-24 px-6">
+      <section className="reveal bg-[#FAF7F2] py-24 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
           <div className="space-y-8 max-w-4xl">
@@ -80,7 +80,7 @@ export default function HomePage() {
       <ProgramsPage />
 
       {/* ================= CHARACTER & PATRIOTISM ================= */}
-      <section className="bg-white py-24 px-6">
+      <section className="reveal bg-white py-24 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
 
           <div className="md:order-2 order-1">
@@ -123,80 +123,134 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ================= JOIN THE MOVEMENT ================= */}
+      <section className="reveal bg-[#1F6F6B] text-white py-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
+
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+            Join the Movement
+          </h2>
+
+          <p className="text-white/90 mb-8 text-lg">
+            Be part of a community promoting integrity, civic responsibility
+            and true patriotism across Africa.
+          </p>
+
+          <div className="flex flex-col md:flex-row gap-4 justify-center">
+
+            <a
+              href="/join-us"
+              className="bg-white text-[#1F6F6B] font-semibold px-7 py-3 rounded-full hover:bg-gray-100 transition"
+            >
+              Join Us
+            </a>
+
+            <a
+              href="/donate"
+              className="bg-[#E76F51] hover:bg-[#D45C42] px-7 py-3 rounded-full font-semibold transition"
+            >
+              Donate
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
       {/* ================= LEADERSHIP ================= */}
-      <section className="bg-white py-28 px-6">
+      <section className="reveal bg-white py-28 px-6">
         <div className="max-w-6xl mx-auto">
 
           <h2 className="text-3xl md:text-4xl font-bold text-center text-[#1F6F6B] mb-16">
             Our Leadership
           </h2>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-14">
+          {/* Founder Highlight
+          <div className="text-center mb-20 transition transform hover:-translate-y-2 hover:shadow-xl duration-300">
+          <img
+            src="/images/leaders/convener.jpeg"
+            className="w-48 h-48 mx-auto rounded-full object-cover shadow-lg"
+          />
+          <h3 className="mt-6 font-semibold text-xl">
+            Dr. Roys Okon Ikedionu
+          </h3>
+          <p className="text-gray-500 mb-3">Founder and Convener</p>
+        </div> */}
 
-            <div className="text-center">
-              <img src="/images/leaders/convener.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
-              <h3 className="mt-6 font-semibold text-lg">Dr. Roys Okon Ikedionu</h3>
-              <p className="text-sm text-gray-500 mb-3">Founder and Convener</p>
+          {/* Leadership Grid */}
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-14">
+            <div className="text-center transition transform hover:-translate-y-2 hover:shadow-xl duration-300">
+              <img src="/images/leaders/convener.jpeg" className="w-48 h-48 mx-auto rounded-full object-cover shadow-lg" />
+              <h3 className="mt-6 font-semibold text-xl">Dr. Roys Okon Ikedionu</h3>
+              <p className="text-gray-500 mb-3">Founder and Convener</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Veterinary surgeon, pharmacist and community leader committed to integrity, honesty and true patriotism.
+                  Veterinary surgeon, pharmacist and community leader committed to
+                  integrity, honesty and true patriotism.
               </p>
             </div>
 
-            <div className="text-center">
-              <img src="/images/leaders/man2.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+            <div className="text-center transition transform hover:-translate-y-2 hover:shadow-xl duration-300">
+              <img src="/images/leaders/man2.jpeg" className="w-40 h-40 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">Dr Jesse Gwandi (Yerima)</h3>
               <p className="text-sm text-gray-500 mb-3">Vice President / BOT Member</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Veterinary Surgeon, philanthropist and community leader.
+                Vice President and Board of Trustees member, dedicated to promoting
+                integrity, civic responsibility and true patriotism.
               </p>
             </div>
 
-            <div className="text-center">
-              <img src="/images/leaders/man3.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+            <div className="text-center transition transform hover:-translate-y-2 hover:shadow-xl duration-300">
+              <img src="/images/leaders/man3.jpeg" className="w-40 h-40 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">Mudassir Mustapha Umar</h3>
               <p className="text-sm text-gray-500 mb-3">Youth & Student Coordinator</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                CEO of Mudassir Homes and Plots.
+                Youth and student coordinator, dedicated to promoting
+                integrity, civic responsibility and true patriotism.
               </p>
             </div>
 
-            <div className="text-center">
-              <img src="/images/leaders/woman4.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+            <div className="text-center transition transform hover:-translate-y-2 hover:shadow-xl duration-300">
+              <img src="/images/leaders/woman4.jpeg" className="w-40 h-40 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">Olori Henrietta Nonye Borky-Bakre</h3>
               <p className="text-sm text-gray-500 mb-3">Treasurer</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Administrator and marketing consultant with strong focus on accountability.
+                Treasurer, dedicated to promoting
+                integrity, civic responsibility and true patriotism.
               </p>
             </div>
 
-            <div className="text-center">
-              <img src="/images/leaders/man5.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+            <div className="text-center transition transform hover:-translate-y-2 hover:shadow-xl duration-300">
+              <img src="/images/leaders/man5.jpeg" className="w-40 h-40 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">AMB.DR. VICTOR OSADOLOR</h3>
               <p className="text-sm text-gray-500 mb-3">Board of Trustees</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                President and CEO of Character Media Inc Network International.
+                Board of Trustees member, dedicated to promoting
+                integrity, civic responsibility and true patriotism.
               </p>
             </div>
 
-            <div className="text-center">
-              <img src="/images/leaders/man6.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+            <div className="text-center transition transform hover:-translate-y-2 hover:shadow-xl duration-300">
+              <img src="/images/leaders/man6.jpeg" className="w-40 h-40 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">Comrade Isaac A. Obasi</h3>
               <p className="text-sm text-gray-500 mb-3">General Secretary</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Advocacy Journalist, Media Officer and Human Rights Activist.
+                General Secretary, dedicated to promoting
+                integrity, civic responsibility and true patriotism.
               </p>
             </div>
 
-            <div className="text-center">
-              <img src="/images/leaders/woman7.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
+            <div className="text-center transition transform hover:-translate-y-2 hover:shadow-xl duration-300">
+              <img src="/images/leaders/woman7.jpeg" className="w-40 h-40 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">Ezejioha Chioma Victoria</h3>
               <p className="text-sm text-gray-500 mb-3">Public Relations Officer</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Public Relations Officer of the True Patriots Enlightenment and Empowerment Organization.
+                Public Relations Officer, dedicated to promoting
+                integrity, civic responsibility and true patriotism.
               </p>
             </div>
 
           </div>
+
         </div>
       </section>
 
