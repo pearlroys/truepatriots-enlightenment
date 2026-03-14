@@ -25,15 +25,15 @@ export default function Navbar() {
             Home
           </Link>
 
-          <a href="#about" className="text-sm font-medium text-gray-700 hover:text-black">
+          <a href="/#about" className="text-sm font-medium text-gray-700 hover:text-black">
             About
           </a>
 
-          <a href="#programs" className="text-sm font-medium text-gray-700 hover:text-black">
+          <a href="/#programs" className="text-sm font-medium text-gray-700 hover:text-black">
             Programs
           </a>
 
-          <a href="#blogs" className="text-sm font-medium text-gray-700 hover:text-black">
+          <a href="/#blogs" className="text-sm font-medium text-gray-700 hover:text-black">
             Blogs
           </a>
 
@@ -90,7 +90,7 @@ export default function Navbar() {
           </Link>
 
           <a
-            href="#about"
+            href="/#about"
             onClick={() => setOpen(false)}
             className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
           >
@@ -98,7 +98,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="#programs"
+            href="/#programs"
             onClick={() => setOpen(false)}
             className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
           >
@@ -106,7 +106,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="#blogs"
+            href="/#blogs"
             onClick={() => setOpen(false)}
             className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
           >

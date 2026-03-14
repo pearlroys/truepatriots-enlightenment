@@ -74,10 +74,14 @@ export default function HomePage() {
       </section>
 
       {/* ================= ABOUT ================= */}
-      <About />
+      <section id="about">
+        <About />
+      </section>
 
       {/* ================= PROGRAMS ================= */}
-      <ProgramsPage />
+      <section id="programs">
+        <ProgramsPage />
+      </section>
 
       {/* ================= CHARACTER & PATRIOTISM ================= */}
       <section className="reveal bg-white py-24 px-6">
