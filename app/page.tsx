@@ -1,3 +1,7 @@
+import About from "./about/page";
+import ProgramsPage from "./programs/page";
+import BlogsPage from "./blogs/page";
+
 export default function HomePage() {
   return (
     <main className="w-full">
@@ -7,7 +11,6 @@ export default function HomePage() {
         className="relative text-white py-28 px-6 bg-cover bg-center"
         style={{ backgroundImage: "url('/images/patriotism/patriot-hero.png')" }}
       >
-        {/* overlay to keep text readable */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-black/20"></div>
 
         <div className="relative max-w-6xl mx-auto grid md:grid-cols-2 gap-14 items-center">
@@ -70,6 +73,12 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ================= ABOUT ================= */}
+      <About />
+
+      {/* ================= PROGRAMS ================= */}
+      <ProgramsPage />
+
       {/* ================= CHARACTER & PATRIOTISM ================= */}
       <section className="bg-white py-24 px-6">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
@@ -91,8 +100,7 @@ export default function HomePage() {
 
             <p className="text-gray-700 leading-loose text-lg">
               Character is the true reflection of who we are. It defines our nature,
-              temperament and moral compass. It is not inherited or gifted,
-              but developed deliberately through discipline, conscience and responsibility.
+              temperament and moral compass.
             </p>
 
             <p className="text-gray-700 leading-loose text-lg">
@@ -115,25 +123,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* PATRIOTISM IMAGES */}
-      <section className="bg-[#FAF7F2] py-24 px-6">
-        <div className="max-w-6xl mx-auto">
-
-          <h2 className="text-3xl md:text-4xl font-bold text-[#1F2937] mb-12">
-            Patriotism in Action
-          </h2>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-            <img src="/images/patriotism/p1.jpeg" className="rounded-xl object-cover h-64 w-full" />
-            <img src="/images/patriotism/p2.jpeg" className="rounded-xl object-cover h-64 w-full" />
-            <img src="/images/patriotism/p3.jpeg" className="rounded-xl object-cover h-64 w-full" />
-            <img src="/images/patriotism/p4.jpeg" className="rounded-xl object-cover h-64 w-full" />
-          </div>
-
-        </div>
-      </section>
-
-      {/* LEADERSHIP */}
+      {/* ================= LEADERSHIP ================= */}
       <section className="bg-white py-28 px-6">
         <div className="max-w-6xl mx-auto">
 
@@ -148,8 +138,7 @@ export default function HomePage() {
               <h3 className="mt-6 font-semibold text-lg">Dr. Roys Okon Ikedionu</h3>
               <p className="text-sm text-gray-500 mb-3">Founder and Convener</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Veterinary surgeon, pharmacist and community leader committed to
-                integrity, honesty and true patriotism.
+                Veterinary surgeon, pharmacist and community leader committed to integrity, honesty and true patriotism.
               </p>
             </div>
 
@@ -158,9 +147,7 @@ export default function HomePage() {
               <h3 className="mt-6 font-semibold text-lg">Dr Jesse Gwandi (Yerima)</h3>
               <p className="text-sm text-gray-500 mb-3">Vice President / BOT Member</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                Veterinary Surgeon, philanthropist and community leader,
-                Member BOT and Vice President of the True Patriots Enlightenment
-                and Empowerment Organization.
+                Veterinary Surgeon, philanthropist and community leader.
               </p>
             </div>
 
@@ -169,18 +156,17 @@ export default function HomePage() {
               <h3 className="mt-6 font-semibold text-lg">Mudassir Mustapha Umar</h3>
               <p className="text-sm text-gray-500 mb-3">Youth & Student Coordinator</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                CEO of Mudassir Homes and Plots and Youth/Student Coordinator
-                of the True Patriots Enlightenment and Empowerment Organization.
+                CEO of Mudassir Homes and Plots.
               </p>
             </div>
 
             <div className="text-center">
               <img src="/images/leaders/woman4.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">Olori Henrietta Nonye Borky-Bakre</h3>
-              <p className="text-sm text-gray-500 mb-3">Treasurer</p> 
-              <p className="text-sm text-gray-700 leading-relaxed"> 
-                Administrator and marketing consultant with strong focus on accountability. 
-              </p> 
+              <p className="text-sm text-gray-500 mb-3">Treasurer</p>
+              <p className="text-sm text-gray-700 leading-relaxed">
+                Administrator and marketing consultant with strong focus on accountability.
+              </p>
             </div>
 
             <div className="text-center">
@@ -188,9 +174,7 @@ export default function HomePage() {
               <h3 className="mt-6 font-semibold text-lg">AMB.DR. VICTOR OSADOLOR</h3>
               <p className="text-sm text-gray-500 mb-3">Board of Trustees</p>
               <p className="text-sm text-gray-700 leading-relaxed">
-                President and CEO of Character Media Inc Network International,
-                a respected advocate for ethical leadership, civic enlightenment
-                and value based national development.
+                President and CEO of Character Media Inc Network International.
               </p>
             </div>
 
@@ -207,15 +191,17 @@ export default function HomePage() {
               <img src="/images/leaders/woman7.jpeg" className="w-44 h-44 mx-auto rounded-full object-cover shadow-md" />
               <h3 className="mt-6 font-semibold text-lg">Ezejioha Chioma Victoria</h3>
               <p className="text-sm text-gray-500 mb-3">Public Relations Officer</p>
-              <p className="text-sm text-gray-700 leading-relaxed">   
-                Public Relations Officer of the True Patriots Enlightenment
-                and Empowerment Organization.
+              <p className="text-sm text-gray-700 leading-relaxed">
+                Public Relations Officer of the True Patriots Enlightenment and Empowerment Organization.
               </p>
             </div>
 
           </div>
         </div>
       </section>
+
+      {/* ================= BLOG ================= */}
+      <BlogsPage />
 
     </main>
   );

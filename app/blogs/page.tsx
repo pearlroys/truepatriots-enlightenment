@@ -1,6 +1,6 @@
 export default function BlogsPage() {
   return (
-    <main className="max-w-6xl mx-auto px-6 md:px-10 py-16 md:py-20">
+    <section id="blogs" className="max-w-6xl mx-auto px-6 md:px-10 py-16 md:py-20">
 
       {/* PAGE HEADER */}
       <header className="mb-16">
@@ -26,6 +26,6 @@ export default function BlogsPage() {
         </article>
       </section>
 
-    </main>
+    </section>
   );
 }

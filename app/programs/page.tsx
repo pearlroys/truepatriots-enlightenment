@@ -1,6 +1,6 @@
 export default function ProgramsPage() {
     return (
-      <main className="max-w-6xl mx-auto px-6 md:px-10 py-16 md:py-20">
+      <section id="programs" className="max-w-6xl mx-auto px-6 md:px-10 py-16 md:py-20">
   
         {/* Page title */}
         <h1 className="text-4xl md:text-5xl font-semibold mb-10">
@@ -34,7 +34,7 @@ export default function ProgramsPage() {
   
         </section>
   
-      </main>
+      </section>
     );
   }
   

@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <main className="bg-[#fdfbf7]">
+    <section id="about" className="bg-[#fdfbf7]">
       <div className="max-w-6xl mx-auto px-6 md:px-10 py-16 md:py-24">
 
         {/* PAGE TITLE */}
@@ -187,6 +187,6 @@ export default function About() {
         </section>
 
       </div>
-    </main>
+    </section>
   );
 }

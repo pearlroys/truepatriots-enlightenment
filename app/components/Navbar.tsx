@@ -7,7 +7,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white border-b border-[#e6f2f4] px-5 py-4">
+    <nav className="sticky top-0 z-50 bg-white border-b border-[#e6f2f4] px-5 py-4">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
 
         {/* LOGO */}
@@ -25,17 +25,17 @@ export default function Navbar() {
             Home
           </Link>
 
-          <Link href="/about" className="text-sm font-medium text-gray-700 hover:text-black">
+          <a href="#about" className="text-sm font-medium text-gray-700 hover:text-black">
             About
-          </Link>
+          </a>
 
-          <Link href="/programs" className="text-sm font-medium text-gray-700 hover:text-black">
+          <a href="#programs" className="text-sm font-medium text-gray-700 hover:text-black">
             Programs
-          </Link>
+          </a>
 
-          <Link href="/blogs" className="text-sm font-medium text-gray-700 hover:text-black">
+          <a href="#blogs" className="text-sm font-medium text-gray-700 hover:text-black">
             Blogs
-          </Link>
+          </a>
 
           <Link href="/join-us" className="text-sm font-medium text-gray-700 hover:text-black">
             Join Us
@@ -89,29 +89,29 @@ export default function Navbar() {
             Home
           </Link>
 
-          <Link
-            href="/about"
+          <a
+            href="#about"
             onClick={() => setOpen(false)}
             className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
           >
             About
-          </Link>
+          </a>
 
-          <Link
-            href="/programs"
+          <a
+            href="#programs"
             onClick={() => setOpen(false)}
             className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
           >
             Programs
-          </Link>
+          </a>
 
-          <Link
-            href="/blogs"
+          <a
+            href="#blogs"
             onClick={() => setOpen(false)}
             className="block px-5 py-3 text-sm text-gray-700 hover:bg-gray-50"
           >
             Blogs
-          </Link>
+          </a>
 
           <Link
             href="/join-us"
